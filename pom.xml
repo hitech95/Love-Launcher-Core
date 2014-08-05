@@ -2,21 +2,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Technic Launcher Core</name>
-    <groupId>net.technicpack</groupId>
+    <name>Love Launcher Core</name>
+    <groupId>it.kytech</groupId>
     <artifactId>launchercore</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <url>http://www.technicpack.net/</url>
+    <url>http://loveplatform.kytech.it</url>
     <inceptionYear>2013</inceptionYear>
-    <description>The core of the Technic Launcher, for connecting to Mojang, the Platform, and launching modpacks.</description>
+    <description>The core of the Love Launcher, for connecting to Mojang, the Platform, and launching modpacks.</description>
 
     <!-- Company information -->
     <organization>
-        <url>http://www.technicpack.net</url>
-        <name>Syndicate LLC</name>
+        <url>http://loveplatform.kytech.it</url>
+        <name>LovePlatform</name>
     </organization>
 
     <dependencies>
+        <dependency>
+            <groupId>net.technicpack</groupId>
+            <artifactId>launchercore</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
